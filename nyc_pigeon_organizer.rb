@@ -17,10 +17,4 @@ end
 
 
 
-#create a new empty hash
-#go thru pigeon data
-#create keys under names
-#if name equals 
-#  then get color , gender and lives
-#end 
  #pigeon_list[:name => pigeon_data[:gender][:male]]
