@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
   
-  results = data.each_with_object({}) do |(key, value), pigeon_list|
+  data.each_with_object({}) do |(key, value), pigeon_list|
     value.each do |inner_key, names|
       names.each do |name|
         if !pigeon_list[name]
@@ -18,7 +18,7 @@ end
 
 
 #create a new empty hash
-#go thry pigeon data
+#go thru pigeon data
 #create keys under names
 #if name equals 
 #  then get color , gender and lives
